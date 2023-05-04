@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ 
+
+*{
+ margin: 0px;
+ padding: 0px; 
+ box-sizing: border-box;
+}
+
+h5{
+    color: aliceblue;
+}
+
+.imgcarrito{
+ padding: 1%;
+ width: 5%;
+ height: 2%;
+}
+nav,
+.offcanvas {
+  background-color: royalblue;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav > li:hover {
+    background-color: cornflowerblue;
+  }
+}
+
+
+#lateral{
+  background-color: royalblue;
+}
+
